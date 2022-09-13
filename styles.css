@@ -18,6 +18,9 @@ body {
   max-width: 30rem;
   margin: auto;
 }
+.container h3 {
+  text-align: center;
+}
 .heading {
   text-align: center;
 }
