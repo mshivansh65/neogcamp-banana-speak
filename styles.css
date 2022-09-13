@@ -1,4 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 body {
+  font-family: "Kalam", cursive;
   /* background-color: rebeccapurple; */
   margin: 0;
   /* overflow: n; */
@@ -9,6 +11,7 @@ body {
   --primary-color: #facc15;
 }
 #btn-translate {
+  font-family: inherit;
   padding: 1rem;
   border-radius: 10px;
   display: block;
