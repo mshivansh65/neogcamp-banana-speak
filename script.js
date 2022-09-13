@@ -24,9 +24,12 @@ function translate(inputString) {
 
 btnTranslate.addEventListener("click", function (e) {
   let inputText = inputTextAreaEl.value;
+  outputTextAreaEl.textContent = "";
 
   if (inputText) {
+    outputTextAreaEl.setAttribute("placeholder", "processing please wait!");
     translate(inputText);
     // changeButton().then(translate(inputText)).then(changeButton);
   }
 });
+// placeholder="click on above button to know how minions would say that"
